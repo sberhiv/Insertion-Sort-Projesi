@@ -66,10 +66,61 @@ O(nlogn)
 # Proje 3 - Binary Search Tree
 
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
-Root= 2
-7, 2 den büyük olduğu için 2 nin sağına
 
-2 \ 7
+Root= 6
+
+7, 6 dan büyük olduğu için 6 nın sağına
+
+6 \ 7
+
+5, 6 dan küçük olduğu için soluna
+
+5/6
+
+1, 6 dan ve 5 den küçük olduğu için sola
+
+1/5/6
+
+8, 6 dan ve 7 den büyük olduğu için en sağa
+
+6\7\8
+
+3, 6 dan ve 5 den küçük olduğu için sola
+
+1/3/5/6
+
+0, 6 dan ve 1-3-5 den küçük olduğu için en sola
+
+0/1/3/5/6
+
+9, 6 dan ve 7-8 den büyük olduğu için en sağa
+
+6\7\8\9
+
+4, 6 dan ve 5 den küçük olduğu için sola 
+
+0/1/3/4/5/6
+
+2, 6 dan ve 3-4-5 den küçük olduğu için sola
+
+0/1/2/3/4/5/6
+
+Sonuç olarak 
+
+0/1/2/3/4/5/ 6 \7\8\9
+
+|             |  |  |     |  |  |  |  |  |  |  |  |  |  |
+|--           |--|--|-    |- |- |- |- |- |- |- |- |- |- |
+|             |  |  |     |  |  |  | 6|  |  |  |  |  |  |
+|             |  |  |     |  |  | /|  |\ |  |  |  |  |  |
+|             |  |  |     |  | 5|  |  |  |7 |  |  |  |  |
+|             |  |  |     | /|  |  |  |  |  |\ |  |  |  |
+|             |  |  | 1   |  |  |  |  |  |  |  | 8|  |  |
+|             |  | /|     |\ |  |  |  |  |  |  |  |\ |  |
+|             | 0|  |     |  | 3|  |  |  |  |  |  |  |9 |
+|             |  |  |     | /|  |\ |  |  |  |  |  |  |  |
+|             |  |  |   2 |  |  |  |4 |  |  |  |  |  |  |
+
 
 
 
