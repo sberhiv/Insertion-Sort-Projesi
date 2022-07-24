@@ -41,7 +41,7 @@ Best Case: [2,6,16,18,22,27]
 2) Big-O gösterimini yazınız.
 
 
-# SORT
+# Sort
 
 [16,21,11,8,12,22]
 
