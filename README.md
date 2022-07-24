@@ -68,9 +68,9 @@ O(nlogn)
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
 Root= 2
 7, 2 den büyük olduğu için 2 nin sağına
-2
- \
-   7
+
+2 \ 7
+
 
 
 www.patika.dev
