@@ -60,8 +60,17 @@ Best Case: [2,6,16,18,22,27]
 
 
 # Big-O Notation
-
 O(nlogn)
+
+
+# Proje 3 - Binary Search Tree
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+Root= 2
+7, 2 den büyük olduğu için 2 nin sağına
+2
+ \
+   7
 
 
 www.patika.dev
